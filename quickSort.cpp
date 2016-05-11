@@ -23,6 +23,6 @@ void quickSort(vector<int> &arr, int left, int right) {
         quickSort(arr, left, j);
     }
     if (i < right) {
-    quickSort(arr, i, right);
+        quickSort(arr, i, right);
     }
 }
